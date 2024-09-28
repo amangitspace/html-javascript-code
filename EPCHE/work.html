@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="abc">Bruce Wyne<u></h1>
+    <button onclick="change()"> change content</button>
+    <button onclick="changecolor()">change color</button>
+    <script>
+        let heading = document.getElementById("abc")
+        console.log("full ", heading)
+        console.log("innerHTML,", heading.innerHTML)
+        console.log("content", heading.textContent)
+        function change() {
+            //  heading.textContent="new content"
+            heading.innerHTML = "<i>Batman</i>"
+        }
+        function changecolor() {
+            heading.style.color = "violet"
+        }
+    </script>
+</body>
+
+</html>

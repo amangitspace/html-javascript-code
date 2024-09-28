@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(214, 194, 170);
+}
+
+p {
+    font-weight: 900;
+    font-family: Arial;
+    font-size: 75px;
+    color: rgb(255, 162, 0);
+    text-align: center;
+
+}
+
+h1 {
+    font-style: italic;
+    color: blueviolet;
+}
